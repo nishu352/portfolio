@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 120" width="100%" height="100%">
+    <style>
+        .bg { 
+            fill: #09090b; 
+        }
+        .symbol { 
+            stroke: #ffffff; 
+            fill: none; 
+            stroke-width: 14; 
+            stroke-linejoin: miter; 
+            stroke-miterlimit: 10; 
+            stroke-linecap: square; 
+        }
+        .text-bold { 
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+            font-size: 42px; 
+            font-weight: 700; 
+            fill: #ffffff; 
+            letter-spacing: 0.2em; 
+        }
+        .text-light { 
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+            font-size: 42px; 
+            font-weight: 300; 
+            fill: #a1a1aa; 
+            letter-spacing: 0.2em; 
+        }
+        
+        /* Optional: Light mode media query support if the background is made transparent */
+        @media (prefers-color-scheme: light) {
+            /* 
+            Uncomment these lines if you want the logo to automatically switch to black in light mode.
+            Make sure to also set the .bg fill to transparent! 
+            */
+            /* .symbol { stroke: #09090b; } */
+            /* .text-bold { fill: #09090b; } */
+            /* .text-light { fill: #71717a; } */
+        }
+    </style>
+
+    <!-- Background (Change fill to 'transparent' if you want no background) -->
+    <rect width="100%" height="100%" class="bg" rx="12" />
+
+    <!-- Logo Symbol (The Transcendent Gap) -->
+    <g transform="translate(15, 10)">
+        <path class="symbol" d="M 22 80 L 22 20 L 45 47" />
+        <path class="symbol" d="M 55 59 L 78 80 L 78 20" />
+    </g>
+
+    <!-- NVIT.SPACE Wordmark -->
+    <text x="135" y="74" class="text-bold">NVIT</text>
+    <text x="260" y="74" class="text-light">.SPACE</text>
+</svg>

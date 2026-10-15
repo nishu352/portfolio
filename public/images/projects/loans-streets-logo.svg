@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360">
+<defs>
+<linearGradient id="b" x1="70" y1="260" x2="290" y2="40" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#123B8F"/><stop offset="1" stop-color="#2F7BFF"/>
+</linearGradient>
+<linearGradient id="n" x1="80" y1="260" x2="270" y2="70" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#07152F"/><stop offset="1" stop-color="#163A78"/>
+</linearGradient>
+</defs>
+<g transform="translate(45 45)">
+<path d="M18 211V167L49 149V193L18 211Z" fill="url(#b)"/>
+<path d="M58 188V105L89 87V170L58 188Z" fill="url(#b)"/>
+<path d="M98 165V49L129 31V147L98 165Z" fill="url(#b)"/>
+<path d="M12 226C57 209 92 188 119 158C139 136 153 113 168 80" stroke="url(#n)" stroke-width="22" stroke-linecap="round"/>
+<path d="M50 232C104 218 153 192 185 157C208 132 225 104 242 70" stroke="#2F7BFF" stroke-width="10" stroke-linecap="round"/>
+<path d="M213 73L258 38L248 89L237 78L222 94L213 73Z" fill="#2F7BFF"/>
+<path d="M126 142C157 153 182 148 201 130C217 115 226 97 237 78" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+<path d="M9 229H247" stroke="#07152F" stroke-width="8" stroke-linecap="round"/>
+</g>
+<g transform="translate(335 93)">
+<text x="0" y="92" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="800" letter-spacing="1.5" fill="#08152F">LOANS STREETS</text>
+<line x1="3" y1="121" x2="510" y2="121" stroke="#2F7BFF" stroke-width="3"/>
+<text x="5" y="171" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="500" letter-spacing="13" fill="#1D2D4A">SOLUTIONS</text>
+<text x="7" y="215" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="600" letter-spacing="5.2" fill="#64748B">YOUR FINANCIAL JOURNEY. OUR GUIDANCE.</text>
+</g>
+</svg>
